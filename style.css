@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Karla;
+    src: url(Fonts/Karla-Regular.ttf);
+}
+
+body {
+    background-color: #F5F4F0;
+    font-family: 'Karla';
+  }
+
+.Cabin, .Teepees, .Fishing, .Archery, .Canoeing {
+    margin-bottom: -200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.right {
+    margin-left: 50px;
+    width: 450px;
+}
+
+.left {
+    width: 450px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 1.2em;
+    margin-top: 60px;
+    margin-bottom: 180px;
+}
+
+section .img {
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        
+}
+
+.left .right {
+    position: absolute;
+}
+
+.relative {
+    width: 400px;
+    position: relative;
+    bottom: 360px;
+    right: 40px;
+    z-index:-1;
+}
+
+.Contact {
+    background-color: RGB(155, 204, 187);
+    padding: 10 0 15 0;
+}
+
+.Contact, .rent {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.rent h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+label {
+    float: left;
+    margin-left: 500px;
+}
+
+input {
+    background-color: RGB(155, 204, 187);
+    margin: 5 0 20 0;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 0.5px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+button {
+    background-color: RGB(155, 204, 187);
+    border: none;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-color: black;
+    padding: 1%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 180px;
+    margin-bottom: 15px;
+}
